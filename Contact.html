@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="nav.css" />
+
+    <style>
+
+        .div1{
+            background-color:chartreuse;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover {
+                    background-color: #111;
+                }
+
+        option {
+            background-color: aqua;
+        }
+
+        select {
+            background-color: darkturquoise;
+        }
+
+    
+/*
+        body{
+            background-color:aqua;
+        }*/
+
+        body {
+            background-image: url("MyPhoto/Contactus.jpg");
+               background-repeat: no-repeat;
+            background-position: right bottom;
+            margin-right: 75px;
+         
+            background-attachment: fixed;
+            background-color: papayawhip;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/Service.html">Servises</a></li>
+            <li><a href="/Contact.html">Contact</a></li>
+            <li><a href="/Aboutus.html">About</a></li>
+            <li><a href="/Galley.html">Gallery</a></li>
+        </ul>
+    </div>
+
+    <div id="contact" class="container-fluid bg-grey">
+        <h1 class="text-center">Contact_us_Page</h1>
+        <h2 class="text-center">Udaipur</h2>
+        <div class="row">
+
+
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="Firstname" name="Firstname" placeholder="Firstname :" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="LastName" name="LastName" placeholder="LastName :" type="text" required>
+                    </div>
+                </div>
+                <div>
+
+                    <label>Gander</label>
+                    <input type="radio" value="male" name="Gender" /> male
+                    <input type="radio" value="Female" name="Gender" /> female
+                    <br />
+
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="Username" name="Username" placeholder="Username :" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email :" type="email" required>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="phone" name="phone" placeholder="Phone No. :" type="number" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="Mobile" name="Mobile" placeholder="Mobile :" type="number" required>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="password" name="password" placeholder="Password :" type="password" required>
+                    </div>
+
+
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="Pin" name="Pin" placeholder="Enter Your Lonpin. :" type="password" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="Adress" name="Adress" placeholder="Adress :" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="profilepicture" name="profilepicture" type="file" required>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <textarea class="form-control" id="description" name="description" placeholder="Decrapstion" rows="5" style="background-color:white"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-07 form-group">
+
+                        <input type="submit" value="submit" style="color:yellow" />
+                        <input type="reset" value="Reset" style="color:red" />
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+</html>
